@@ -31,10 +31,24 @@ summary {
 
 /* classes */
 
+.hidden {
+	display: none;
+}
+
 .banner {
 	text-align: center;
 	background-color: #333;
 	padding: 1%
+}
+
+.home_page {
+	color: #eee;
+	text-align: center;
+}
+
+.character_page {
+	color: #eee;
+	padding-left: 2%; padding-right: 2%;
 }
 
 /* IDs */
@@ -102,12 +116,26 @@ summary {
 	padding: 5%
 }
 
+.card-grid-small {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+	padding: 5%
+}
+
 .card {
     background-color: #333;
-    padding: 20px;
     border-radius: 10px;
     color: #eee;
     border: 1px solid #444;
+}
+
+.card-grid .card {
+    padding: 20px;
+}
+
+.card-grid-small .card {
+    padding: 10px;
 }
 
 .card h2 {
