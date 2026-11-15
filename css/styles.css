@@ -21,6 +21,14 @@ h1 {
 	text-align: center;
 }
 
+details > :not(summary) {
+    margin-left: 15px;
+}
+
+summary {
+	font-weight: 600
+}
+
 /* classes */
 
 .banner {
@@ -104,4 +112,9 @@ h1 {
 
 .card h2 {
 	text-align: center;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 10px
 }
