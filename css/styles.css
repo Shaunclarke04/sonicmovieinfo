@@ -1,0 +1,83 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* tags */
+
+body {
+	background-color: #444;
+	font-family: 'Roboto', sans-serif;
+}
+
+p,
+p a {
+	color: #eee
+}
+
+h1 {
+	color: #eee;
+	text-align: center;
+}
+
+/* classes */
+
+.banner {
+	text-align: center;
+	background-color: #333;
+	padding: 1%
+}
+
+/* IDs */
+
+#header,
+#footer {
+	padding: 2%;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+#header a,
+#footer a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+#header .active,
+#header a:hover,
+#footer a:hover {
+	color: #eee;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #333;
+    min-width: 150px;
+    padding: 5px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
